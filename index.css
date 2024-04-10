@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  /* background-color: red; */
+  border-bottom: solid 2px #c6c6c6;
+}
+.header-container {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-logo__img {
+  width: 100px;
+  object-fit: cover;
+}
+.header-user__img {
+  width: 32px;
+  border-radius: 50%;
+}
