@@ -7,22 +7,71 @@ body {
 }
 
 header {
-  /* background-color: red; */
   border-bottom: solid 2px #c6c6c6;
 }
+
+.header-container,
+.user-info,
+.interactions {
+  padding: 10px;
+}
+
 .header-container {
   display: flex;
-  /* background-color: red; */
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .header-logo__img {
   width: 100px;
   object-fit: cover;
 }
-.header-user__img {
-  width: 32px;
+
+.header-user__img,
+.user-info__img {
+  width: 40px;
   border-radius: 50%;
+}
+
+.feed {
+}
+
+.user-info {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.avatar-name,
+.avatar-location {
+  margin: 0;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.avatar-location {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.feed-post {
+  width: 100%;
+  object-fit: cover;
+}
+
+.icon-group {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.icon-group img {
+  width: 30px;
+
+  cursor: pointer;
 }
